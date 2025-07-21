@@ -137,7 +137,7 @@ curl -X POST https://api.hidepulsa.com/kasir/orkut/generate \
 | auth_username | string | Username akun        |
 | auth_token    | string | Token hasil login    |
 | merchant      | string | Kode merchant        |
-| nominal       | string | Nominal transaksi    |
+| nominal       | string | Nominal + kode unik proses sebelomnya di generate    |
 
 ### Contoh Curl
 
