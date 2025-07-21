@@ -1,5 +1,6 @@
 
 # Dokumentasi API Mutasi Orkut
+**Deskripsi:** Tidak ada data yang di simpan sama sekali!!!!
 
 > **Base URL:** `https://api.hidepulsa.com`
 
