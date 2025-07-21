@@ -95,7 +95,7 @@ curl -X POST https://api.hidepulsa.com/mutasi \
 
 ## 🧾 Endpoint: `/kasir/orkut/generate`
 
-**Deskripsi:** Generate QRIS dan dapatkan URL gambar QR.
+**Deskripsi:** Generate QRIS nominal wajib kasih kode unik dan dapatkan URL gambar QR.
 
 - **Method:** POST
 
@@ -106,7 +106,7 @@ curl -X POST https://api.hidepulsa.com/mutasi \
 | auth_username | string | Username akun            |
 | auth_token    | string | Token hasil login        |
 | merchant      | string | Kode merchant (e.g. OK1234567) |
-| nominal       | string | Nominal dalam satuan rupiah |
+| nominal       | string | Nominal + kode unik |
 
 ### Contoh Curl
 
