@@ -2,7 +2,7 @@
 # Dokumentasi API Mutasi Orkut UNOFFICIAL
 **Deskripsi:** Tidak ada data yang di simpan sama sekali!!!!
 
-> **Base URL:** `https://api.hidepulsa.com`
+> **Base URL:** `https://orkut.hidepulsa.com`
 
 ---
 
@@ -32,7 +32,7 @@ Authorization: Bearer YOUR_API_KEY
 ### Contoh Curl
 
 ```bash
-curl -X POST https://api.hidepulsa.com/minta-otp \
+curl -X POST https://orkut.hidepulsa.com/minta-otp \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"username": "username", "password": "44421"}'
@@ -56,7 +56,7 @@ curl -X POST https://api.hidepulsa.com/minta-otp \
 ### Contoh Curl
 
 ```bash
-curl -X POST https://api.hidepulsa.com/valid-otp \
+curl -X POST https://orkut.hidepulsa.com/valid-otp \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"username": "username", "otp": "123456"}'
@@ -81,7 +81,7 @@ curl -X POST https://api.hidepulsa.com/valid-otp \
 ### Contoh Curl
 
 ```bash
-curl -X POST https://api.hidepulsa.com/mutasi \
+curl -X POST https://orkut.hidepulsa.com/mutasi \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -111,7 +111,7 @@ curl -X POST https://api.hidepulsa.com/mutasi \
 ### Contoh Curl
 
 ```bash
-curl -X POST https://api.hidepulsa.com/kasir/orkut/generate \
+curl -X POST https://orkut.hidepulsa.com/kasir/orkut/generate \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -142,7 +142,7 @@ curl -X POST https://api.hidepulsa.com/kasir/orkut/generate \
 ### Contoh Curl
 
 ```bash
-curl -X POST https://api.hidepulsa.com/kasir/orkut/status-pembayaran \
+curl -X POST https://orkut.hidepulsa.com/kasir/orkut/status-pembayaran \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -172,7 +172,7 @@ curl -X POST https://api.hidepulsa.com/kasir/orkut/status-pembayaran \
 ### Contoh Curl
 
 ```bash
-curl -X POST https://api.hidepulsa.com/kasir/orkut/mutasi \
+curl -X POST https://orkut.hidepulsa.com/kasir/orkut/mutasi \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
