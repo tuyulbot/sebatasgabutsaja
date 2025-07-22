@@ -64,7 +64,7 @@ curl -X POST https://orkut.hidepulsa.com/valid-otp \
 
 ---
 
-## 💸 Endpoint: `/mutasi` (Maintenance pake yang endpoint kasir untuk mutasi)
+## 💸 Endpoint: `/mutasi` (Maintenance pake yang endpoint kasir untuk mutasi /kasir/orkut/mutasi)
 
 **Deskripsi:** Cek mutasi QRIS berdasarkan token.
 
@@ -136,7 +136,7 @@ curl -X POST https://orkut.hidepulsa.com/kasir/orkut/generate \
 |---------------|--------|----------------------|
 | auth_username | string | Username akun        |
 | auth_token    | string | Token hasil login    |
-| merchant      | string | Kode merchant        |
+| merchant      | string | Kode merchant (e.g. OK1234567)      |
 | nominal       | string | Nominal + kode unik proses sebelomnya di generate    |
 
 ### Contoh Curl
@@ -167,7 +167,7 @@ curl -X POST https://orkut.hidepulsa.com/kasir/orkut/status-pembayaran \
 |---------------|--------|--------------------|
 | auth_username | string | Username akun      |
 | auth_token    | string | Token hasil login  |
-| merchant      | string | Kode merchant      |
+| merchant      | string | Kode merchant (e.g. OK1234567)     |
 
 ### Contoh Curl
 
