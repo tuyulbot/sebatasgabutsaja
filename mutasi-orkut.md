@@ -64,7 +64,7 @@ curl -X POST https://orkut.hidepulsa.com/valid-otp \
 
 ---
 
-## 💸 Endpoint: `/mutasi` (Maintenance pake yang endpoint kasir untuk mutasi /kasir/orkut/mutasi)
+## 💸 Endpoint: `/mutasi`
 
 **Deskripsi:** Cek mutasi QRIS berdasarkan token.
 
