@@ -64,35 +64,6 @@ curl -X POST https://orkut.hidepulsa.com/valid-otp \
 
 ---
 
-## 💸 Endpoint: `/mutasi`
-
-**Deskripsi:** Cek mutasi QRIS berdasarkan token.
-
-- **Method:** POST
-
-### Payload
-
-| Field         | Tipe    | Keterangan                |
-|---------------|---------|---------------------------|
-| merchant_id   | string  | ID merchant (contoh: 1192690) |
-| auth_username | string  | Username akun             |
-| auth_token    | string  | Token hasil validasi OTP  |
-
-### Contoh Curl
-
-```bash
-curl -X POST https://orkut.hidepulsa.com/mutasi \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "merchant_id": "merchant code tnpa OK",
-    "auth_username": "username",
-    "auth_token": "token yang di dapat saat login"
-  }'
-```
-
----
-
 ## 🧾 Endpoint: `/kasir/orkut/generate`
 
 **Deskripsi:** Generate QRIS nominal wajib kasih kode unik dan dapatkan URL gambar QR.
@@ -179,6 +150,33 @@ curl -X POST https://orkut.hidepulsa.com/kasir/orkut/mutasi \
     "auth_username": "username",
     "auth_token": "token yang di dapat saat login",
     "merchant": "merchant code"
+  }'
+```
+
+## 💸 Endpoint: `/mutasi`
+
+**Deskripsi:** Cek mutasi QRIS berdasarkan token.
+
+- **Method:** POST
+
+### Payload
+
+| Field         | Tipe    | Keterangan                |
+|---------------|---------|---------------------------|
+| merchant_id   | string  | ID merchant (contoh: 1192690) |
+| auth_username | string  | Username akun             |
+| auth_token    | string  | Token hasil validasi OTP  |
+
+### Contoh Curl
+
+```bash
+curl -X POST https://orkut.hidepulsa.com/mutasi \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "merchant_id": "merchant code tnpa OK",
+    "auth_username": "username",
+    "auth_token": "token yang di dapat saat login"
   }'
 ```
 
