@@ -1,6 +1,6 @@
 
 # Dokumentasi API Mutasi Orkut UNOFFICIAL
-**Deskripsi:** Tidak ada data yang di simpan sama sekali!!!!
+**NOTED!!! :** Tidak ada data yang di simpan sama sekali!!!!
 
 > **Base URL:** `https://orkut.hidepulsa.com`
 
@@ -11,7 +11,7 @@
 Semua endpoint membutuhkan `Authorization` header dengan format:
 
 ```
-Authorization: Bearer HIDEBOTORKUTMUTASI
+Authorization: Bearer YOUR_API_KEY
 ```
 
 ---
