@@ -11,7 +11,7 @@
 Semua endpoint membutuhkan `Authorization` header dengan format:
 
 ```
-Authorization: Bearer YOUR_API_KEY
+Authorization: Bearer HIDEBOTORKUTMUTASI
 ```
 
 ---
